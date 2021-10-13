@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  application:
+    image: nginx
+    ports:
+      - "2002:80"
+    volumes:
+      - ./html:/usr/share/nginx/html
+    restart: always
+

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Kodchasan");
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    overflow: hidden;
+    font-family: "Kodchasan", sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background: url(./assets/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 15vw;
+    margin-bottom: 2vh;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.contact {
+    font-size: 24px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.email {
+    color: aqua;
+    font-size: 24px;
+    font-weight: 400;
+    white-space: nowrap;
+}
