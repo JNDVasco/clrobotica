@@ -39,18 +39,21 @@ body {
 
 .title {
     font-size: 40px;
+    font-size: 3vw;
     font-weight: 800;
     white-space: nowrap;
 }
 
 .subtitle {
     font-size: 32px;
+    font-size: 2vw;
     font-weight: 600;
     white-space: nowrap;
 }
 
 .contact {
     font-size: 24px;
+    font-size: 1.5vw;
     font-weight: 400;
     white-space: nowrap;
 }
@@ -58,6 +61,7 @@ body {
 .email {
     color: aqua;
     font-size: 24px;
+    font-size: 1.5vw;
     font-weight: 400;
     white-space: nowrap;
 }
